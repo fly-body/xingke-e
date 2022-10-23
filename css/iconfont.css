@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1665412092252') format('truetype');
+  src: url('iconfont.ttf?t=1666519228916') format('truetype');
 }
 
 .iconfont {
@@ -23,6 +23,10 @@
   content: "\e8d7";
 }
 
+.icon-plus-circle:before {
+  content: "\e781";
+}
+
 .icon-dingdandingdanmingxishouzhimingxi-xianxing:before {
   content: "\e789";
 }
@@ -37,5 +41,13 @@
 
 .icon-faxian:before {
   content: "\e636";
+}
+
+.icon-minus-circle:before {
+  content: "\e677";
+}
+
+.icon-shopping-cart:before {
+  content: "\e89a";
 }
 
