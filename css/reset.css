@@ -41,3 +41,6 @@ a{
 .footer li i{
     font-size: 5vw;
 }
+.active{
+    background-color: rgb(233, 23, 51, 0.2);
+}
