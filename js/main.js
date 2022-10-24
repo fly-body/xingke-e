@@ -9,7 +9,7 @@
             window.location.href = "businessList.html";
             break;
             case 2: 
-            window.location.href = "order.html";
+            window.location.href = "orderList.html";
             break;
             case 3: 
             window.location.href = "me.html";
@@ -22,6 +22,7 @@
         // 商品选择累加
     })
 })();
+// 商家信息页
 (function(){
     if($("body").data("page") === "info"){
         info();
@@ -29,7 +30,6 @@
     function info(){
         // 判断是否包邮，默认隐藏
         $(".cart-right-item-noable").hide();
-        console.log(parseInt($("span").text()));
         if(parseInt($("span").text()) === 0){
             $('.icon-minus-circle').hide();
         }
@@ -47,5 +47,22 @@
             }
             $(this).parent().prev().find("span").text($(this).parent().prev().find("span").text() - 0 + 1);
         })
+
+        // 结算跳转
+        $(".J-account").on('click',function(){
+            window.location.href = "order.html";
+        })
     }
 })();
+// 确定订单
+(function(){
+    if($("body").data("page") === "order"){
+        order();
+    }
+    function order(){
+        $(".J-pay").on('click',function(){
+            window.location.href = "payment.html"
+        })
+    }
+}());
+// 支付页面

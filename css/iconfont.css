@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1666519228916') format('truetype');
+  src: url('iconfont.ttf?t=1666623445107') format('truetype');
 }
 
 .iconfont {
@@ -15,12 +15,20 @@
   content: "\f01d8";
 }
 
+.icon-angleright:before {
+  content: "\e9bf";
+}
+
 .icon-shouye:before {
   content: "\e751";
 }
 
 .icon-shaixuanguolv:before {
   content: "\e8d7";
+}
+
+.icon-check-circle:before {
+  content: "\e77d";
 }
 
 .icon-plus-circle:before {
@@ -33,6 +41,10 @@
 
 .icon-sanjiaoxing:before {
   content: "\e6bd";
+}
+
+.icon-caret-down:before {
+  content: "\e8ec";
 }
 
 .icon-sousuo:before {

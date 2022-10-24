@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线支付</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+</head>
+
+<body data-page="payment">
+    <div class="wrapper">
+        <!-- header部分 -->
+        <header>
+            <p>在线支付</p>
+        </header>
+        <!-- 订单信息部分 -->
+        <h3>订单信息：</h3>
+        <div class="order-info">
+            <p>
+                万家饺子（软件园E18店）
+                <i class="iconfont icon-caret-down" id="showBtn"></i>
+            </p>
+            <p>&#165;49</p>
+        </div>
+        <!-- 订单明细部分 -->
+        <ul class="order-detailet" id="detailetBox">
+            <li>
+                <p>纯肉鲜肉（水饺） x 2</p>
+                <p>&#165;15</p>
+            </li>
+            <li>
+                <p>玉米鲜肉（水饺） x 1</p>
+                <p>&#165;16</p>
+            </li>
+            <li>
+                <p>配送费</p>
+                <p>&#165;3</p>
+            </li>
+        </ul>
+        <!-- 支付方式部分 -->
+        <ul class="payment-type">
+            <li>
+                <img src="./img/alipay.png">
+                <i class="iconfont icon-check-circle"></i>
+            </li>
+            <li>
+                <img src="./img/wechat.png">
+            </li>
+        </ul>
+        <div class="payment-button">
+            <button>确认支付</button>
+        </div>
+        <!-- 底部菜单部分 -->
+        <ul class="footer">
+            <li>
+                <i class="iconfont icon-shouye"></i>
+                <p>首页</p>
+            </li>
+            <li>
+                <i class="iconfont icon-faxian"></i>
+                <p>发现</p>
+            </li>
+            <li class="active">
+                <i class="iconfont icon-dingdandingdanmingxishouzhimingxi-xianxing"></i>
+                <p>订单</p>
+            </li>
+            <li>
+                <i class="iconfont icon-31wode"></i>
+                <p>我的</p>
+            </li>
+        </ul>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
