@@ -1,0 +1,66 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    header{
+        width: 100%;
+        height: 12vw;
+        background-color: #0097FF;
+        color: #fff;
+        font-size: 4.8vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list{
+        width: 100%;
+        margin-top: 12vw;
+        padding-bottom: 14vw;
+        li{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 2.5vw;
+            border-bottom: solid 1px #DDD;
+            user-select: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            .item-img{
+                position: relative;
+                img{
+                    width: 20vw;
+                    height: 20vw;
+                }
+                .item-num{
+                    width: 5vw;
+                    height: 5vw;
+                    background-color: red;
+                    color: #fff;
+                    font-size: 3.6vw;
+                    border-radius: 2.5vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -1.5vw;
+                    right: -1.5vw;
+                }
+            }
+            .item-info{
+                margin-left: 3vw;
+                h3{
+                    font-size: 3.8vw;
+                    color: #555;
+                }
+                p{
+                    font-size: 3vw;
+                    color: #888;
+                    margin-top: 2vw;
+                }
+            }
+        }
+    }
+}

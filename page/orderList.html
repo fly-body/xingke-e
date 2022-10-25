@@ -1,12 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/orderList.css">
+    <title>订单列表</title>
 </head>
-<body>
-    
+
+<body data-page="orderList">
+    <div class="wrapper">
+        <!-- header部分 -->
+        <header>
+            <p>我的订单</p>
+        </header>
+        <!-- 订单列表部分 -->
+        <h3>未支付订单信息：</h3>
+        <ul class="order">
+            <li>
+                <div class="order-info">
+                    <p>
+                        万家饺子（软件园E18店）
+                        <i class="iconfont icon-caret-down"></i>
+                    </p>
+                    <div class="order-info-right">
+                        <p>&#165;49</p>
+                        <div class="order-info-right-icon">去支付</div>
+                    </div>
+                </div>
+                <ul class="order-detailet">
+                    <li>
+                        <p>纯肉鲜肉（水饺） x 2</p>
+                        <p>&#165;15</p>
+                    </li>
+                    <li>
+                        <p>玉米鲜肉（水饺） x 1</p>
+                        <p>&#165;16</p>
+                    </li>
+                    <li>
+                        <p>配送费</p>
+                        <p>&#165;3</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="order-info">
+                    <p>
+                        小锅饭豆腐馆（全运店）
+                        <i class="iconfont icon-caret-down"></i>
+                    </p>
+                    <div class="order-info-right">
+                        <p>&#165;55</p>
+                        <div class="order-info-right-icon">去支付</div>
+                    </div>
+                </div>
+                <ul class="order-detailet">
+                    <li>
+                        <p>纯肉鲜肉（水饺） x 2</p>
+                        <p>&#165;15</p>
+                    </li>
+                    <li>
+                        <p>玉米鲜肉（水饺） x 1</p>
+                        <p>&#165;16</p>
+                    </li>
+                    <li>
+                        <p>配送费</p>
+                        <p>&#165;3</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h3>已支付订单信息：</h3>
+        <ul class="order">
+            <li>
+                <div class="order-info">
+                    <p>
+                        万家饺子（软件园E18店）
+                        <i class="iconfont icon-caret-down"></i>
+                    </p>
+                    <div class="order-info-right">
+                        <p>&#165;49</p>
+                    </div>
+                </div>
+                <ul class="order-detailet">
+                    <li>
+                        <p>纯肉鲜肉（水饺） x 2</p>
+                        <p>&#165;15</p>
+                    </li>
+                    <li>
+                        <p>玉米鲜肉（水饺） x 1</p>
+                        <p>&#165;16</p>
+                    </li>
+                    <li>
+                        <p>配送费</p>
+                        <p>&#165;3</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="order-info">
+                    <p>
+                        小锅饭豆腐馆（全运店）
+                        <i class="iconfont icon-caret-down"></i>
+                    </p>
+                    <div class="order-info-right">
+                        <p>&#165;55</p>
+                    </div>
+                </div>
+                <ul class="order-detailet">
+                    <li>
+                        <p>纯肉鲜肉（水饺） x 2</p>
+                        <p>&#165;15</p>
+                    </li>
+                    <li>
+                        <p>玉米鲜肉（水饺） x 1</p>
+                        <p>&#165;16</p>
+                    </li>
+                    <li>
+                        <p>配送费</p>
+                        <p>&#165;3</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- 底部菜单部分 -->
+        <ul class="footer">
+            <li>
+                <i class="iconfont icon-shouye"></i>
+                <p>首页</p>
+            </li>
+            <li>
+                <i class="iconfont icon-faxian"></i>
+                <p>发现</p>
+            </li>
+            <li class="active">
+                <i class="iconfont icon-dingdandingdanmingxishouzhimingxi-xianxing"></i>
+                <p>订单</p>
+            </li>
+            <li>
+                <i class="iconfont icon-31wode"></i>
+                <p>我的</p>
+            </li>
+        </ul>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/main.js"></script>
 </body>
+
 </html>

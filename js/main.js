@@ -12,7 +12,7 @@
             window.location.href = "orderList.html";
             break;
             case 3: 
-            window.location.href = "me.html";
+            window.location.href = "login.html";
             break;
         }
     })
